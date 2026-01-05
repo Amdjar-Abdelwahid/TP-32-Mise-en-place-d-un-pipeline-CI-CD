@@ -5,7 +5,7 @@ COPY ./src ./src
 RUN mvn clean package -DskipTests
 
 FROM eclipse-temurin:17-jdk-alpine
-LABEL maintainer="Karkachi Mohamed <mohamed.karkachi@github.com>"
+LABEL maintainer="Amdjar Abdelwahid <amdjarabdelwahid1@github.com>"
 LABEL version="2.0.0"
 LABEL description="Fleet Management Microservice"
 WORKDIR /application
